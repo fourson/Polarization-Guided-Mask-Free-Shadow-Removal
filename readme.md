@@ -3,7 +3,7 @@
 By [Chu Zhou](https://fourson.github.io/), Chao Xu, [Boxin Shi](http://ci.idm.pku.edu.cn/)
 ![Network](Network.png)
 
-[PDF]() | [SUPP]()
+[PDF](https://ojs.aaai.org/index.php/AAAI/article/download/33164/35319) | [SUPP](https://fourson.github.io/assets/pdf/AAAI2025a_supp.pdf)
 
 ## Abstract
 Shadow is a phenomenon that degenerates image quality and decreases the performance of downstream vision algorithms. Despite the fact that current image shadow removal methods have achieved promising progress, many of them require an externally obtained shadow mask as a necessary part of the input data, which not only introduces additional workload but also leads to degenerated performance near the shadow boundary due to the inaccuracy of the mask. Some of them do not require the shadow mask, however, they need to simultaneously consider the restoration of the brightness and color information along with the preservation of the texture and structure information inside the shadow region without external clues, which poses highly ill-posedness and makes the results prone to artifacts. In this paper, we propose **Pol-ShaRe**, the first **Pol**arization-guided image **Sha**dow **Re**moval solution, to remove shadow in a mask-free manner with fewer artifacts. Specifically, it consists of a two-stage pipeline to relieve the ill-posedness and a neural network tailored to the pipeline to suppress the artifacts. Experimental results show that our Pol-ShaRe achieves state-of-the-art performance on both synthetic and real-world images.
