@@ -36,5 +36,13 @@ Shadow is a phenomenon that degenerates image quality and decreases the performa
 ## Citation
 If you find this work helpful to your research, please cite:
 ```
-coming soon
+@inproceedings{zhou2025polarization,
+  title={Polarization guided mask-free shadow removal},
+  author={Zhou, Chu and Xu, Chao and Shi, Boxin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={10},
+  pages={10716--10724},
+  year={2025}
+}
 ```
